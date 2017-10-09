@@ -14,8 +14,8 @@ npm install pg
 
 
 #####one is enough
-knex migrate:make users
+knex migrate:make users  
 
-knex migrate:latest   build our db table
+knex migrate:latest   //build our db table
 
 knex migrate:make users  // USERS is table name
